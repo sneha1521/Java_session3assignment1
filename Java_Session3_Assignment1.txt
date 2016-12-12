@@ -1,0 +1,18 @@
+1. Analyse the below code :
+ 
+What will happen if you try to compile and run this? 
+   public class Test{       
+ static{       
+ print(10);       
+ }    
+ static void print (int x) {   
+ System.out.println (x); 
+ System.exit(0);   
+  } 
+} 
+
+Result :
+
+Error: Main method not found in class test, please define the main method as:
+   public static void main(String[] args)
+or a JavaFX application class must extend javafx.application.Application
